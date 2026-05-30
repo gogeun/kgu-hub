@@ -1,6 +1,6 @@
 const defaultSiteData = [
     { id: 1, title: "경기대학교 대표 홈페이지", category: "행정/학사", img: "https://placehold.co/100x100/2c3e50/ffffff?text=KGU", link: "https://www.kyonggi.ac.kr" },
-    { id: 2, title: "종합정보서비스 (KUTIS)", category: "행정/학사", img: "https://placehold.co/100x100/e74c3c/ffffff?text=KUTIS", link: "https://kutis.kyonggi.ac.kr" },
+    { id: 2, title: "종합정보서비스 (KUTIS)", category: "행정/학사", img: "https://placehold.co/100x100/e74c3c/ffffff?text=KUTIS", link: "https://kutis.kyonggi.ac.kr/webkutis/view/indexWeb.jsp" },
     { id: 3, title: "수강신청 시스템", category: "행정/학사", img: "https://placehold.co/100x100/27ae60/ffffff?text=Class", link: "https://sugang.kyonggi.ac.kr" },
     { id: 4, title: "경기대학교 LMS", category: "행정/학사", img: "https://placehold.co/100x100/2980b9/ffffff?text=LMS", link: "https://lms.kyonggi.ac.kr" },
     { id: 5, title: "중앙도서관", category: "도서관", img: "https://placehold.co/100x100/8e44ad/ffffff?text=Lib", link: "https://library.kyonggi.ac.kr" }
