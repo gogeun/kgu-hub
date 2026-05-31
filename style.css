@@ -1,4 +1,3 @@
-/* 기본 초기화 및 폰트 설정 */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f6f8; color: #333; }
 a { text-decoration: none; color: inherit; }
@@ -121,6 +120,23 @@ main {
     transition: color 0.3s;
 }
 .fav-btn.active { color: #f1c40f; }
+
+.del-btn {
+    position: absolute;
+    right: 55px; /* 별 버튼(right:20px)보다 살짝 왼쪽에 배치 */
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
+
+.del-btn:hover {
+    opacity: 1;
+}
 
 footer { text-align: center; padding: 20px; margin-top: 20px; color: #7f8c8d; font-size: 0.9em; }
 
